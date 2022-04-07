@@ -22,7 +22,7 @@ The analysis of re-running the school district analysis had two components:
 
 ### Analysis approach 
 
-![img](https://github.com/fhsal/PyCity_Schools/blob/main/resources/screen1.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Resources/screen1.png)
 
 ### Analysis of Outcomes Based on Goals
 
