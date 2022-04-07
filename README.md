@@ -1,8 +1,7 @@
-# PyCity_Schools
+# PyCity Schools District Analysis
 
 CWRU Data Analytics Module Four Challenge
 
-# PyCity Schools
 
 ## Overview of Project
 
@@ -13,7 +12,7 @@ The project involved learning about using pandas, including data frames and capa
 
 The purpose of the challenge was to exercise our skills with using pandas in a variety of ways to summarize, aggregate, sort, filter, format and replace data to facilitate summary-level views of the student and school populations.  
 
-## Analysis and Results
+## Analysis 
 
 The analysis of re-running the school district analysis had two components:
 
@@ -21,9 +20,9 @@ The analysis of re-running the school district analysis had two components:
 
 (2) Removing the 9th grade Thomas High School students from the population totals - which effectively impacted all the aggregate population related stats in which these students had previously been included (e.g., total students, per-student stats, etc.)
 
-### Analysis of Outcomes Based on Launch Date
+### Analysis approach 
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/resources/screen1.png)
 
 ### Analysis of Outcomes Based on Goals
 
