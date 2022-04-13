@@ -14,13 +14,15 @@ The purpose of the challenge was to exercise our skills with using pandas in a v
 
 ## Analysis 
 
-The analysis of re-running the school district analysis had two components:
+Re-running the school district analysis had two components:
 
-(1) replacing the scores of the 9th grade Thomas High School students with 'nan' - which effectively impacted all the aggregate stats in which these scores had previously been included;  and
+(1) replacing the scores of the 9th grade Thomas High School students with 'NaN' - which effectively impacted all the aggregate stats in which these scores had previously been included;  and
 
 (2) Removing the 9th grade Thomas High School students from the population totals - which effectively impacted all the aggregate population related stats in which these students had previously been included (e.g., total students, per-student stats, etc.)
 
 ### Analysis approach 
+
+The analysis involved unsing the pandas 'loc' method and numPy to identify all the 9th graders from Thomas High School and replacing only their grades with 'NaN".   It was then necessary to re-run all the grade statistics, sorts and aggregations with the Thomas High School 9th graders effectively removed from the data since they no longer have scores which contribute to the computed means, % pass for math/reading/overall or student population counts.  This has a small, but pervasive effect on the outcomes of the analysis.     
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Resources/screen1.png)
 
@@ -34,10 +36,62 @@ A bit tricky with "COUNTIFS" rather than "COUNTIF", but otherwise straightforwar
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?   Success rates are much higher in late spring and early summer whereas failure rates are relatively flat 
+### Summary
 
-- What can you conclude about the Outcomes based on Goals?  Unsure - the success rates seem higher at lower cas rates than higher but ther eis a bump around #5k-$40k
+Removing the Thomas High School 9th grader scores causes the averages for Math, Reading and Overall to fall slightly.  It also lowers the same set of stats for the budget and population range aggregations - where Thomas High School meets the grouping criteria (school type, school size and budget range). 
 
-- What are some limitations of this dataset?  It doesn't include causal factors 
+### Specific metrics impact 
 
-- What are some other possible tables and/or graphs that we could create?  variations due to currency and country, for example 
+The several school district metrics impacted by removing the Thomas High School students from the data and analysis are summarized below.  Note that the dark VS Code images are "before" and the lighter Jypyter Notebook images are "after" in the bulleted items shown here.  
+
+- The average test scores were lowered for both Math and Reading 
+
+before: 
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+after:  
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+
+-The percent passing scores were lowered for Math, Reading and Overall
+
+before:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+After:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+
+- The Spending Ranges Per Student roll-ups were impacted where Thomas High School is represented in the $631-645 grouping
+
+before:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+After:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+- The Size Ranges  roll-ups were impacted where Thomas High School is represented in the medium grouping
+
+before:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+After:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+- The school type roll-ups were impacted where Thomas High School is represented in charter grouping
+
+before:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+
+After:
+
+![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
