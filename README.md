@@ -35,52 +35,52 @@ The several school district metrics impacted by removing the Thomas High School 
 
 - The average test scores were lowered for both Math and Reading 
 
-before: 
+**Before:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_Avg_scores.png)
 
-after:  
+**after:**  
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_Avg_scores.png)
 
 
 -The percent passing scores were lowered for Math, Reading and Overall
 
-before:
+**Before:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_passing_percent.png)
 
-After:
+**After:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_passing_percent.png)
 
 
 - The Spending Ranges Per Student roll-ups were impacted where Thomas High School is represented in the $631-645 grouping
 
-before:
+**Before:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_spending.png)
 
-After:
+**After:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_spending.png)
 
 - The Size Ranges  roll-ups were impacted where Thomas High School is represented in the medium grouping
 
-before:
+**Before:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_size.png)
 
-After:
+**After:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_size.png)
 
 - The school type roll-ups were impacted where Thomas High School is represented in charter grouping
 
-before:
+**Before:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_type.png)
 
-After:
+**After:**
 
 ![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_type.png)
