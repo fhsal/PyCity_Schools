@@ -24,17 +24,6 @@ Re-running the school district analysis had two components:
 
 The analysis involved unsing the pandas 'loc' method and numPy to identify all the 9th graders from Thomas High School and replacing only their grades with 'NaN".   It was then necessary to re-run all the grade statistics, sorts and aggregations with the Thomas High School 9th graders effectively removed from the data since they no longer have scores which contribute to the computed means, % pass for math/reading/overall or student population counts.  This has a small, but pervasive effect on the outcomes of the analysis.     
 
-![img](https://github.com/fhsal/PyCity_Schools/blob/main/Resources/screen1.png)
-
-### Analysis of Outcomes Based on Goals
-
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
-
-### Challenges and Difficulties Encountered
-
-A bit tricky with "COUNTIFS" rather than "COUNTIF", but otherwise straightforward. 
-
-## Results
 
 ### Summary
 
