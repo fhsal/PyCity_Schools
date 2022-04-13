@@ -48,50 +48,50 @@ The several school district metrics impacted by removing the Thomas High School 
 
 before: 
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_Avg_scores.png)
 
 after:  
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_Avg_scores.png)
 
 
 -The percent passing scores were lowered for Math, Reading and Overall
 
 before:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_passing_percent.png)
 
 After:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_passing_percent.png)
 
 
 - The Spending Ranges Per Student roll-ups were impacted where Thomas High School is represented in the $631-645 grouping
 
 before:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_spending.png)
 
 After:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_spending.png)
 
 - The Size Ranges  roll-ups were impacted where Thomas High School is represented in the medium grouping
 
 before:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_size.png)
 
 After:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_size.png)
 
 - The school type roll-ups were impacted where Thomas High School is represented in charter grouping
 
 before:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/before_type.png)
 
 After:
 
-![img](https://github.com/fhsal/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![img](https://github.com/fhsal/PyCity_Schools/blob/main/Images/after_type.png)
